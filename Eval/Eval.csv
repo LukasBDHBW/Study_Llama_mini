@@ -1,0 +1,91 @@
+Question,Answer,Answer1,Answer2,Result,similarity_1,similarity_2,similarity_winner
+Question: What are the basic features of Relational Database Management Systems (RDMS)?,"Answer: The basic features of RDMS include the ability to create a database, write and execute SQL queries, evaluate storage structures, read execution plans and optimize queries, and understand transaction isolation layers.","Relational Database Management Systems (RDBMS) have several basic features that differentiate them from other types of database management systems. Here are some of the key features:
+
+1. Structure: RDBMS organizes data into tables with rows and columns, where each table represents a specific entity (e.g., customers, products). The columns represent attributes or characteristics of the entity, and the rows represent individual records or instances.
+
+2. Data Integrity: RDBMS enforce data integrity constraints to maintain the accuracy and consistency of data. These constraints include primary key constraints, foreign key constraints, unique constraints, and check constraints.
+
+3. Relationships: RDBMS allow for establishing relationships between tables using primary and foreign keys. This enables the creation of meaningful associations between entities and supports data retrieval through joins.
+
+4. SQL: RDBMS use Structured Query Language (SQL) as the standard language for interacting with the database. SQL allows users to perform various operations such as querying, inserting, updating, and deleting data in a relational database.
+
+5. ACID Properties: RDBMS ensure data integrity and reliability by following the ACID properties. These properties stand for Atomicity (all or nothing), Consistency (maintains validity), Isolation (transactions do not interfere with each other), and Durability (committed data is permanently saved).
+
+6. Scalability: RDBMS can handle large amounts of data and support scalability by adding more hardware or distributing the database across multiple servers. This allows for efficient management of growing datasets.
+
+7. Indexing: RDBMS use indexes to improve the performance of data retrieval operations. Indexes are data structures that store a subset of data to enable faster searching based on certain columns or attributes.
+
+8. Security: RDBMS provide robust security features to protect data from unauthorized access. These features include user authentication, role-based access control, and encryption mechanisms to safeguard sensitive information.
+
+9. Transactions: RDBMS support transactions, which are a set of operations performed as a single unit. Transactions ensure the atomicity and consistency of database operations, allowing multiple operations to succeed or fail together.
+
+These basic features make RDBMS highly efficient, reliable, and flexible for managing structured data and handling complex relationships between entities.","Relational Database Management Systems (RDBMS) are built on the relational model introduced by E.F. Codd. The basic features that make up RDBMS include:
+
+1. Tables: Data is organized into tables (also known as relations), which consist of rows (records) and columns (fields or attributes).
+
+2. Primary Keys: Each table has a unique identifier called a primary key, which ensures that each record within a table can be uniquely identified.
+
+3. Foreign Keys: These are attributes in a table that create a link between two tables, referencing the primary key in another table to establish a relationship between the data.
+
+4. Structured Query Language (SQL): RDBMS uses SQL, a standardized language, for writing database queries. This language enables users to insert, search, update, delete, and manage data.
+
+5. Data Integrity: Through constraints and rules, RDBMS ensures the accuracy and integrity of data. This includes entity integrity (no duplicate rows), referential integrity (foreign keys must correspond to primary keys), and domain integrity (valid entries for columns).
+
+6. Transactions: RDBMS supports transactions, which are sequences of operations performed as a single logical unit of work. A transaction must be completely processed or not processed at all, maintaining the database's consistency in the event of a system failure.
+
+7. ACID Properties: RDBMS follow the principles of Atomicity, Consistency, Isolation, and Durability to ensure secure and reliable database transactions.
+
+8. Data Security: Mechanisms like user authentication, access control, and encryption are provided to secure the data against unauthorized access.
+
+9. Data Redundancy and Normalization: RDBMS minimize data redundancy through normalization, a process of organizing data to avoid duplication while maintaining data integrity.
+
+10. Backup and Recovery: RDBMS typically provide tools and mechanisms for backing up data and recovering it in case of data loss or corruption.
+
+11. Concurrency Control: RDBMS allow multiple users to access and manipulate data simultaneously without conflicting with each other's operations.
+
+These features enable RDBMS to handle large amounts of structured data and support relationships among that data, making them suitable for various applications ranging from simple to complex enterprise systems.",1,0.9536824,0.9574921,2
+Question: What are the basic features of Relational Database Management Systems (RDMS)?,"Answer: The basic features of RDMS include the ability to create a database, write and execute SQL queries, evaluate storage structures, read execution plans and optimize queries, and understand transaction isolation layers.","Relational Database Management Systems (RDBMS) have several basic features that differentiate them from other types of database management systems. Here are some of the key features:
+
+1. Structure: RDBMS organizes data into tables with rows and columns, where each table represents a specific entity (e.g., customers, products). The columns represent attributes or characteristics of the entity, and the rows represent individual records or instances.
+
+2. Data Integrity: RDBMS enforce data integrity constraints to maintain the accuracy and consistency of data. These constraints include primary key constraints, foreign key constraints, unique constraints, and check constraints.
+
+3. Relationships: RDBMS allow for establishing relationships between tables using primary and foreign keys. This enables the creation of meaningful associations between entities and supports data retrieval through joins.
+
+4. SQL: RDBMS use Structured Query Language (SQL) as the standard language for interacting with the database. SQL allows users to perform various operations such as querying, inserting, updating, and deleting data in a relational database.
+
+5. ACID Properties: RDBMS ensure data integrity and reliability by following the ACID properties. These properties stand for Atomicity (all or nothing), Consistency (maintains validity), Isolation (transactions do not interfere with each other), and Durability (committed data is permanently saved).
+
+6. Scalability: RDBMS can handle large amounts of data and support scalability by adding more hardware or distributing the database across multiple servers. This allows for efficient management of growing datasets.
+
+7. Indexing: RDBMS use indexes to improve the performance of data retrieval operations. Indexes are data structures that store a subset of data to enable faster searching based on certain columns or attributes.
+
+8. Security: RDBMS provide robust security features to protect data from unauthorized access. These features include user authentication, role-based access control, and encryption mechanisms to safeguard sensitive information.
+
+9. Transactions: RDBMS support transactions, which are a set of operations performed as a single unit. Transactions ensure the atomicity and consistency of database operations, allowing multiple operations to succeed or fail together.
+
+These basic features make RDBMS highly efficient, reliable, and flexible for managing structured data and handling complex relationships between entities.","Relational Database Management Systems (RDBMS) are built on the relational model introduced by E.F. Codd. The basic features that make up RDBMS include:
+
+1. Tables: Data is organized into tables (also known as relations), which consist of rows (records) and columns (fields or attributes).
+
+2. Primary Keys: Each table has a unique identifier called a primary key, which ensures that each record within a table can be uniquely identified.
+
+3. Foreign Keys: These are attributes in a table that create a link between two tables, referencing the primary key in another table to establish a relationship between the data.
+
+4. Structured Query Language (SQL): RDBMS uses SQL, a standardized language, for writing database queries. This language enables users to insert, search, update, delete, and manage data.
+
+5. Data Integrity: Through constraints and rules, RDBMS ensures the accuracy and integrity of data. This includes entity integrity (no duplicate rows), referential integrity (foreign keys must correspond to primary keys), and domain integrity (valid entries for columns).
+
+6. Transactions: RDBMS supports transactions, which are sequences of operations performed as a single logical unit of work. A transaction must be completely processed or not processed at all, maintaining the database's consistency in the event of a system failure.
+
+7. ACID Properties: RDBMS follow the principles of Atomicity, Consistency, Isolation, and Durability to ensure secure and reliable database transactions.
+
+8. Data Security: Mechanisms like user authentication, access control, and encryption are provided to secure the data against unauthorized access.
+
+9. Data Redundancy and Normalization: RDBMS minimize data redundancy through normalization, a process of organizing data to avoid duplication while maintaining data integrity.
+
+10. Backup and Recovery: RDBMS typically provide tools and mechanisms for backing up data and recovering it in case of data loss or corruption.
+
+11. Concurrency Control: RDBMS allow multiple users to access and manipulate data simultaneously without conflicting with each other's operations.
+
+These features enable RDBMS to handle large amounts of structured data and support relationships among that data, making them suitable for various applications ranging from simple to complex enterprise systems.",1,0.9536824,0.9574921,2
