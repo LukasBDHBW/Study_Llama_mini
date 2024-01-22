@@ -1,0 +1,10 @@
+pdf2image
+Pillow
+matplotlib
+PyMuPDF
+pytesseract
+requests
+PyPDF2
+tqdm
+configparser
+openai

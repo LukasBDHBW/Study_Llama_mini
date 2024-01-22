@@ -15,11 +15,16 @@ For preprocessing and evaluation, an OpenAI API key is required, which should be
 api_key = "API-Key"
 ```
 
-1. **Preprocessing**: Install the requirements from `requirements.txt` using conda and install Tesseract OCR. `pytesseract` requires the Tesseract-OCR engine, which must be installed separately. The installation process varies depending on the operating system:
+1. **Preprocessing**: Install the requirements from `requirements.txt` using:
+
+```
+pip with pip install -r requirements.txt
+```
+
+ and install Tesseract OCR. `pytesseract` requires the Tesseract-OCR engine, which must be installed separately. The installation process varies depending on the operating system:
 
    - **Windows**:
-     - Download the Tesseract installer from GitHub and execute it.
-     - Note the installation path as you will need to specify it later in your Python script.
+     - Download the Tesseract installer from GitHub and execute it.[Link](https://ub-mannheim.github.io/Tesseract_Dokumentation/Tesseract_Doku_Windows.html)
 
    - **Linux**:
      - Use the package manager of your distribution, for example on Ubuntu/Debian: `sudo apt-get install tesseract-ocr`
