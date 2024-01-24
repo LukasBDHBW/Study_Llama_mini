@@ -34,9 +34,9 @@ pip with pip install -r requirements.txt
 
 2. **Running Notebooks**: The remaining notebooks can be executed on Kaggle, as we have added you as a collaborator there.
 
-Finetuning Notebook:
+Finetuning Notebook: https://www.kaggle.com/code/wmarcus/llama-kaggle-tuning?scriptVersionId=160285615
 
-Layer extraction + finetuning notebook for distilled model (first 2 steps of graphic):
+Layer extraction + finetuning notebook for distilled model (first 2 steps of graphic): https://www.kaggle.com/code/wmarcus/distil-new-trial/notebook?scriptVersionId=160285293
 
 Distillation (core output distil process) notebook:
 
