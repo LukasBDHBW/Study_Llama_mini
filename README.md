@@ -39,13 +39,12 @@ pip with pip install -r requirements.txt
 
     (original notebook, but access management setting issues in kaggle for some reason, so there is no access possible currently for new users) https://www.kaggle.com/code/wmarcus/llama-kaggle-tuning?scriptVersionId=160285615
 
-
+    - **Finetuning Eval Notebook**: https://www.kaggle.com/code/wmarcus/fork-of-llama-vs-edullama-eval/notebook
 
     - **Layer extraction + finetuning notebook for distilled model (first 2 steps of graphic)**: https://www.kaggle.com/code/wmarcus/distil-new-trial/notebook?scriptVersionId=160285293
 
 
-
-    - **Distillation (core output distil process) notebook**:
+    - **Distillation (core output distil process) notebook**: https://www.kaggle.com/code/wmarcus/qa-output-distillation?scriptVersionId=160292332
 
 
 Graphic Distillation:
