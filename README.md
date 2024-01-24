@@ -42,5 +42,5 @@ Distillation (core output distil process) notebook:
 
 Graphic Distillation:
 <p align="center">
-  <img src="./Llama Bild.png" alt="Dale Logo" width="600"/>
+  <img src="./Llama Bild.PNG" alt="Dale Logo" width="600"/>
 </p>
