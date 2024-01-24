@@ -3,10 +3,6 @@
 </p>
 
 # Comparative Analysis of Llama 7B base and finetuned model & efficient distilling of Llama 1.4B
-
-## Overview
-This project focuses on the retraining and comparison of the Llama 2 model and a mini version of a Large Language Model (LLM) using data science educational data. Our goal is to analyze the effectiveness of these models in processing and understanding data science-related content.
-
 ## How to Run
 For preprocessing and evaluation, an OpenAI API key is required, which should be written into a `config.ini` file in the following format:
 
