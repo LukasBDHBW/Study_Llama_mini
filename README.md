@@ -46,7 +46,7 @@ pip with pip install -r requirements.txt
     - **Layer extraction + finetuning notebook for distilled model (first 2 steps of graphic)**: https://www.kaggle.com/code/wmarcus/distil-new-trial/notebook?scriptVersionId=160285293
 
 
-    - **Distillation (core output distil process, last step of graphic) notebook**: https://www.kaggle.com/code/wmarcus/qa-output-distillation?scriptVersionId=160292332
+    - **Distillation (core output distil process, last step of graphic) notebook**: https://www.kaggle.com/code/wmarcus/qa-output-distillation/notebook?scriptVersionId=160294451
 
 
 Graphic Distillation:
